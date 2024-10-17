@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 585px;
+    background: rgba(0,0,0,0.646) url(https://th.bing.com/th/id/R.d2edb29f3f970c36aadecbb01ed0bb79?rik=euy3GgtoVbZXjQ&riu=http%3a%2f%2fs3-us-west-2.amazonaws.com%2ftechvibes%2fwp-content%2fuploads%2f2017%2f04%2f24135159%2fNetflix-Background.jpg&ehk=Te5qPs5gcrmm6JGD3hx5pWZ%2f7tWNKhG3laqWQsQBqd4%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+}
+select{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.1rem;
+    cursor: pointer;
+
+}
+#language{
+    width: 145px;
+    height: 32px;
+
+}
+#signup{
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    font-size:500;
+    border: none;
+}
+#card1{
+
+    padding-left: 500px;
+    margin-top: 120px;
+   
+}
+#heading{
+    color: white;
+    font-size:70px;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: 100;
+}
+#email{
+    margin-top: 1rem;
+    width: 500px;
+    height: 50px;
+    background-color: rgba(35, 33, 33, 0.53);
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: white;
+    
+}
+#get{
+    height: 50px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+}
+#card2{
+  
+    margin-top: 200px;
+    background-color: black;
+}
+
+
+#red{
+    border: 2px solid red;
+    border-top-left-radius: 1000%;
+    border-top-right-radius: 1000% ;
+ }
+#card2h{
+    margin: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight:lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#movies{
+
+    margin-top: -80px ;
+    margin-left: 50px;
+  
+}
+#card2h2{
+    color: white;
+    font-size: 30px;
+    font-weight:lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+}
+#main1{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(9, 9, 37);
+    border-radius: 20px;
+    padding: 25px;
+}
+#main1p{
+    color: white;
+}
+#main2h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight:lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#main2div{
+    height: 60px;
+    width: 90%;
+    background-color: rgb(45,45 ,45 );
+    padding: 25px;
+    font-size:25px;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.down1 p{
+    text-align: center;
+ font-size: 1.1rem;
+}
+.down1{
+    
+
+}
+.down1 input{
+    margin-top: 1rem;
+    width: 500px;
+    height: 50px;
+    background-color: rgba(35, 33, 33, 0.53);
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: white;
+}
+.down1 input:hover{
+    border: 2px solid white;
+}
+.down1 button{
+ width: 280px;
+ height: 50px;
+ border: none;
+outline: none;
+ background: red;
+ color: white;
+ font-size: 1.4rem;
+cursor: pointer;
+}
+footer{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+footer #p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: rgb(139, 139, 139);
+}
+.footer{
+    display: flex;
+    color: rgb(139, 139, 139);
+    text-decoration: underline;
+    
+}
+.footer2{
+    margin-top: 1rem;
+}
+.footer2 p{
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.footer1 {
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.footer1 p{
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.last{
+    margin-top: 3rem;
+}
+
+#par{
+    margin-top: 2rem;
+    color:rgb(139, 139, 139) ;
+    margin-bottom: 2rem;
+}
